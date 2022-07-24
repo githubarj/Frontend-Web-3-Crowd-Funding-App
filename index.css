@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000235;
+  color: white;
+}
+img {
+  position: absolute;
+  width: 615px;
+  height: 609px;
+  left: calc(50% - 615px / 2 + 416px);
+  top: 122px;
+}
+div {
+  position: absolute;
+  width: 716px;
+  height: 379px;
+  left: 24px;
+  top: 250px;
+}
+h2{
+position: absolute;
+width: 716px;
+height: 229px;
+left: calc(50% - 716px/2 - 369.5px);
+top: 250px;
+padding-bottom: 30px;
+margin-bottom: 30px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 87px;
+line-height: 100%;
+/* or 87px */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+#connectButton {
+
+padding: 10px;
+margin-top: 30px;
+margin-right: 10px;
+width: 140px;
+height: 37.17px;
+border-top: 20px;
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.32em;
+text-transform: uppercase;
+
+border-radius: 20px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+background-color: 
+#F0BC46;
+color: #FFFFFF;
+}
+
+input {
+width: 150px;
+height: 37.17px;
+padding: 5px;
+
+text-align: center;
+
+background: #181449;
+border-radius: 202px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+/* identical to box height, or 194% */
+
+
+color: #F5F5F5;
+
+opacity: 0.75;
+}
+#fund{
+width: 100px;
+height: 37.17px;
+background: #9192DD;
+border-radius: 52px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+
+
+/* identical to box height, or 696% */
+
+
+
+color: #FFFFFF;
+}
+#balanceButton {
+ width: 100px;
+height: 37.17px;
+background: #9192DD;
+border-radius: 52px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+
+
+color: #FFFFFF;
+
+}
+#withdrawButton {
+   width: 100px;
+height: 37.17px;
+background: #9192DD;
+border-radius: 52px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+
+
+color: #FFFFFF;
+}

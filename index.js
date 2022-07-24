@@ -47,8 +47,12 @@ fundBtn.addEventListener("click", async () => {
     if (typeof window.ethereum != "undefined") {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const balance = await provider.getBalance(contractAddress);
-      console.log(ethers.utils.formatEther(balance));
+      const display = `${ethers.utils.formatEther(balance)} Ether`;
+      console.log(display);
+      alert(`Balance is ${display}`);
     }
+
+    
   });
 
   withdrawBtn.addEventListener("click", async function () {
