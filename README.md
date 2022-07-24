@@ -22,8 +22,8 @@ Confused? You can run `git checkout nodejs-edition` if you'd like to see this wi
 1. Clone the repo
 
 ```
-git clone https://github.com/PatrickAlphaC/html-fund-me-fcc
-cd html-fund-me-fcc
+git clone https://github.com/githubarj/Frontend-Web-3-Crowd-Funding-App.git
+cd Frontend-Web-3-Crowd-Funding-App
 ```
 
 2. Run the file.
@@ -53,8 +53,8 @@ Make sure you have the following installed:
 1. You'll need to open up a second terminal and run:
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
+git clone https://github.com/githubarj/Web-3-CrowdFunding-App.git
+cd Web-3-CrowdFunding-App
 yarn
 yarn hardhat node
 ```
@@ -76,13 +76,3 @@ Additionally, add your localhost with chainid 31337 to your metamask.
 
 5. Reserve the front end with `yarn http-server`, input an amount in the text box, and hit `fund` button after connecting
 
-# Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
