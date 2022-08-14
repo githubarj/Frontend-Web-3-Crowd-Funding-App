@@ -1,5 +1,6 @@
 # Frontend for Web 3 Crowdfunding Application
 For user interaction with our crowd funding backend
+![Preview pic](preview.png)
 # Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
