@@ -6,6 +6,9 @@ const fundBtn = document.getElementById("fund");
 const amount = document.getElementById("ethAmount");
 const contractBalance = document.getElementById("balanceButton");
 const withdrawBtn = document.getElementById("withdrawButton");
+const balanceText = document.getElementById("balance-text")
+
+
 
 connectBtn.addEventListener("click", async () => {
   if (typeof window.ethereum !== "undefined") {
@@ -41,19 +44,23 @@ fundBtn.addEventListener("click", async () => {
     } catch (error) {
       console.log(error);
     }
+
+    
   }
 
-  contractBalance.addEventListener("click", async function () {
+  function checkBalance () {
     if (typeof window.ethereum != "undefined") {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const balance = await provider.getBalance(contractAddress);
       const display = `${ethers.utils.formatEther(balance)} Ether`;
       console.log(display);
       alert(`Balance is ${display}`);
+      balanceText.textContent=`$ ${display}`
     }
+    checkBalance();
 
     
-  });
+  };
 
   withdrawBtn.addEventListener("click", async function () {
     if (typeof window.ethereum != "undefined") {
