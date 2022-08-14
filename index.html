@@ -1,25 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Web 3 Crowd Funding</title>
   </head>
   <body>
-    <div>
-      
-    <h1>Crowd Funding Application</h1>
-    <button id="connectButton">Connect</button>
-    <label for="fundInput"></label>
-    <input id="ethAmount" placeholder="Eth Amount">
-    <button id="fund">Fund</button>
-    
-    <button id="balanceButton">Balance</button>
-    <button id="withdrawButton">Withdraw</button>
+    <div class="container">
+      <!-- Nav -->
+      <nav>
+        <img src="./GoFound.png" alt="web-icon" class="go-fund-icon" />
+        <div class="nav-items">
+          <p>Start a campaign</p>
+          <p>Explore</p>
+          <button id="connectButton">Connect</button>
+        </div>
+      </nav>
+
+      <!-- main  -->
+      <div class="main">
+        <img src="/watch.png" alt="watch" class="watch" />
+        <div class="content">
+          <!-- article -->
+          <article>
+            <h1>Sustainable Watch</h1>
+            <p class="paragrap-1">
+              Pellentesque donec lorem a varius arcu, ipsum. Turpis venenatis
+              congue tortor in facilisis neque dictum vitae pellentesque. Sed ut
+              commodo suscipit gravida faucibus neque facilisis rhoncus. Morbi
+              tellus at vitae cursus sapien id sed. Lacinia et in pellentesque a
+              arcu fringilla urna, dignissim cursus.
+            </p>
+            <p class="paragrap-2">
+              Id tellus sed imperdiet suspendisse vel quisque netus. A, eu
+              tristique pretium phasellus tincidunt. Nunc, cursus sit dictum
+              condimentum. Quam pellentesque magna ornare consequat lectus dui
+              diam gravida. Luctus nec, turpis lectus faucibus dui quam. Sit
+              habitasse mauris libero, dolor facilisis sagittis, magna.
+            </p>
+          </article>
+          <!-- icons -->
+          <div class="icons">
+            <img src="./Facebook.png" class="icon" />
+            <img src="./Twitter.png" class="icon" />
+            <img src="./mail.png" class="icon" />
+            <img src="./share.png" class="icon" />
+          </div>
+          <!-- action -->
+          <div class="actions">
+            <h2 class="balance">$ 0.00</h2>
+            <img src="./Rectangle.png" class="rect" />
+            <p class="small">85% of $300000</p>
+            <section>
+              <div class="information">
+                <div class="block-1">
+                  <p class="big">20</p>
+                  <p class="small-text">days left</p>
+                </div>
+                <div class="block-2">
+                  <p class="big">71500</p>
+                  <p class="small-text" >backers</p>
+                </div>
+              </div>
+
+              <div class="interact">
+                <label for="fundInput"></label>
+                <input id="ethAmount" placeholder="Eth Amount" />
+                <button id="fund">Fund</button>
+                <button id="withdrawButton">Withdraw</button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
-    <img src="coin.png"/>
 
     <script src="index.js" type="module"></script>
   </body>
