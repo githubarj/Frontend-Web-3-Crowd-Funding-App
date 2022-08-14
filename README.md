@@ -1,4 +1,4 @@
-# Frontend for ![Web 3 Crowdfunding Application](https://github.com/githubarj/Web-3-CrowdFunding-App)
+# Frontend for [Web 3 Crowdfunding Application](https://github.com/githubarj/Web-3-CrowdFunding-App)
 
 ![Preview pic](preview.png) 
 # Requirements
