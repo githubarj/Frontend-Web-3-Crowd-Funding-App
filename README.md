@@ -1,4 +1,6 @@
 # Frontend for Web 3 Crowdfunding Application
+
+![Preview pic](preview.png) 
 # Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -15,7 +17,6 @@
     - You might need to install it with npm
 
 Confused? You can run `git checkout nodejs-edition` if you'd like to see this with nodejs. 
-
 # Quickstart
 
 1. Clone the repo
